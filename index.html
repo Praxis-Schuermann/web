@@ -4,8 +4,8 @@
 <script id="facebook-jssdk" src="index-Dateien/sdk.js"></script><script type="text/javascript">
 	var big        = '72%';
 	var small      = '53%';
-	var bildauf    = '/templates/beez3/images/plus.png';
-	var bildzu     = '/templates/beez3/images/minus.png';
+	var bildauf    = '/index-Dateien/plus.png';
+	var bildzu     = '/index-Dateien/minus.png';
 	var rightopen  = 'Info öffnen';
 	var rightclose = 'Info schließen';
 	var altopen    = 'ist geöffnet';
@@ -16,15 +16,11 @@
 		<meta name="HandheldFriendly" content="true">
 		<meta name="apple-mobile-web-app-capable" content="YES">
 
-		  <!-- base href="http://accupix.de/" -->
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="description" content="Naturheilpraxis, Heilpraktikerin, Heilhypnose, Akupunktur, Homöopathie, Dorntherapie, Breuss-Massage, Pneumatische Pulsationstherapie, Ästhetische Medizin, Anti-Aging">
-  <meta name="generator" content="Joomla! - Open Source Content Management">
-  <title>Home - Naturheilpraxis Birgitt Schürmann</title>
-  <link href="http://accupix.de/index.php" rel="canonical">
-  <link href="http://accupix.de/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0">
-  <link href="http://accupix.de/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0">
-  <link href="http://accupix.de/templates/beez3/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <meta name="generator" content="Naturheilpraxis Birgitt Schürmann in Bochum">
+  <title>Naturheilpraxis Birgitt Schürmann</title>
+  <link href="index-Dateien/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
   <link rel="stylesheet" href="index-Dateien/camera.css" type="text/css">
   <link rel="stylesheet" href="index-Dateien/css.css" type="text/css">
   <link rel="stylesheet" href="index-Dateien/system.css" type="text/css">
@@ -81,7 +77,7 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
 
 
 		<!--[if IE 7]>
-		<link href="/templates/beez3/css/ie7only.css" rel="stylesheet" type="text/css" />
+		<link href="/index-Dateien/ie7only.css" rel="stylesheet" type="text/css" />
 		<![endif]-->
 	</head>
 	<body id="shadow" style="font-size: 100%;"><div id="toolbar-wrapper" class="toolbar-wrapper hidden" style="height: 0px;"><iframe src="index-Dateien/toolbar.htm" id="gooding-toolbar-iframe" style="height: 0px;"></iframe></div>
@@ -90,10 +86,7 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
 			<div id="back">
 				<header id="header">
 					<div class="logoheader">
-						<h1 id="logo">
-																			Naturheilpraxis												<span class="header1">
-						Naturheilverfahren &amp; Ästhetik                          <br>Birgitt Schürmann
-						</span></h1>
+						<h1 id="logo">Naturheilpraxis<span class="header1">Naturheilverfahren &amp; Ästhetik<br>Birgitt Schürmann</span></h1>
 					</div><!-- end logoheader -->
 					<ul class="skiplinks">
 						<li><a href="#main" class="u2">Zum Inhalt wechseln</a></li>
@@ -116,7 +109,7 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
 											<nav class="left1 leftbigger" id="nav" role="navigation">
 							<div class="moduletable_menu">
  <ul class="nav menu">
-<li class="item-101 current active"><a href="http://accupix.de/index.php">Home</a></li><li class="item-103"><a href="http://accupix.de/index.php/therapien">Therapien</a></li><li class="item-102"><a href="http://accupix.de/index.php/praxis">Praxis</a></li><li class="item-125"><a href="http://accupix.de/index.php/gallerie">Gallerie</a></li><li class="item-104"><a href="http://accupix.de/index.php/kontakt">Kontakt</a></li><li class="item-105"><a href="http://accupix.de/index.php/anfahrt">Anfahrt</a></li><li class="item-106"><a href="http://accupix.de/index.php/impressum">Impressum</a></li><li class="item-126"><a href="http://accupix.de/index.php/zertifikate">Zertifikate</a></li></ul>
+<li class="item-101 current active"><a href="index.html">Home</a></li><li class="item-103"><a href="../therapien/therapien.html">Therapien</a></li><li class="item-102"><a href="../praxis/praxis.html">Praxis</a></li><li class="item-125"><a href="../gallerie/gallerie.html">Gallerie</a></li><li class="item-104"><a href="../kontakt/kontakt.html">Kontakt</a></li><li class="item-105"><a href="../anfaht/anfahrt.html">Anfahrt</a></li><li class="item-106"><a href="../impressum/impressum.html">Impressum</a></li><li class="item-126"><a href="../zertifikate/zertifikate.html">Zertifikate</a></li></ul>
 </div>
 <div class="moduletable">
  	<form action="/index.php" method="post" id="login-form">
@@ -125,14 +118,18 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
 		<label for="modlgn-username">Benutzername</label>
 		<input id="modlgn-username" name="username" class="inputbox" size="18" type="text">
 	</p>
-	<p id="form-login-password">
+	<p id="form-login-password" style="height: 64px">
+		<input id="modlgn-passwd" name="password" class="inputbox" size="18" type="password"> <br>
 		<label for="modlgn-passwd">Passwort</label>
-		<input id="modlgn-passwd" name="password" class="inputbox" size="18" type="password">
+
 	</p>
-				<p id="form-login-remember">
-			<label for="modlgn-remember">Angemeldet bleiben</label>
+		<p style="height: 64px">
+		&nbsp;</p>
+		<p style="height: 64px">
+		<label for="modlgn-remember">Angemeldet bleiben</label>
 			<input id="modlgn-remember" name="remember" class="inputbox" value="yes" type="checkbox">
-		</p>
+		
+	</p>
 		<input name="Submit" class="button" value="Anmelden" type="submit">
 	<input name="option" value="com_users" type="hidden">
 	<input name="task" value="user.login" type="hidden">
@@ -143,7 +140,7 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
 			Passwort vergessen?</a>
 		</li>
 		<li>
-			<a href="http://accupix.de/index.php/component/users/?view=remind">
+			<a href="index.html/component/users/?view=remind">
 			Benutzername vergessen?</a>
 		</li>
 					</ul>
@@ -161,7 +158,7 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
  
 
 <div class="custom">
-	<div class="fb-page" data-href="https://www.facebook.com/HeilpraktikerinSchuermann" data-width="250" data-height="340" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">&nbsp;</div></div>
+facebook bild
 </div>
 
 							
@@ -190,10 +187,10 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
 <p>		</p><div class="moduletable_homeslide">
 						
 		<!--[if lte IE 7]>
-		<link href="/modules/mod_slideshowck/themes/default/css/camera_ie.css" rel="stylesheet" type="text/css" />
+		<link href="/index-Dateien/camera_ie.css" rel="stylesheet" type="text/css" />
 		<![endif]-->
 		<!--[if IE 8]>
-		<link href="/modules/mod_slideshowck/themes/default/css/camera_ie8.css" rel="stylesheet" type="text/css" />
+		<link href="/index-Dateien/camera_ie8.css" rel="stylesheet" type="text/css" />
 		<![endif]--><script type="text/javascript"> <!--
        jQuery(function(){
         jQuery('#camera_wrap_90').camera({
@@ -214,7 +211,7 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
                 mobileAutoAdvance: 1,
                 portrait: 0,
                 barDirection: 'leftToRight',
-                imagePath: '/modules/mod_slideshowck/images/',
+                imagePath: '/index-Dateien/images/',
                 lightbox: 'mediaboxck',
                 fullpage: 0,
 				mobileimageresolution: '0',
@@ -227,12 +224,12 @@ window.setInterval(function(){var r;try{r=window.XMLHttpRequest?new XMLHttpReque
         });
 }); //--> </script><!-- debut Slideshow CK -->
 <div class="slideshowck_homeslide camera_wrap camera_black_skin" id="camera_wrap_90" style="display: block; height: 460px; margin-bottom: 64px;"><div class="camera_fakehover"><div class="camera_src camerastarted">
-			<div data-thumb="/images/img/th/_MOC4457-003_th.jpg" data-src="/images/img/_MOC4457-003.jpg" data-alignment="topCenter">
+			<div data-thumb="/index-Dateien/_MOC4457-003_th.jpg" data-src="index-Dateien/_MOC4457-003.jpg" data-alignment="topCenter">
 							
 					</div>
-		<div data-thumb="/images/img/th/_MOC4481-001_th.jpg" data-src="/images/img/_MOC4481-001.jpg" data-alignment="center">
+		<div data-thumb="/index-Dateien/_MOC4481-001_th.jpg" data-src="/index-Dateien/_MOC4481-001.jpg" data-alignment="center">
 					</div>
-		<div data-thumb="/images/img/th/KFH_2215-002_th.jpg" data-src="/images/img/KFH_2215-002.jpg">
+		<div data-thumb="/index-Dateien/KFH_2215-002_th.jpg" data-src="/index-Dateien/KFH_2215-002.jpg">
 					</div>
 </div><div class="camera_target"><div class="cameraCont"><div class="cameraSlide cameraSlide_0" style="visibility: visible; z-index: 1; display: none; margin-left: 0px; margin-top: 0px;"><img src="index-Dateien/_MOC4457-003.jpg" class="imgLoaded" style="visibility: visible; height: 698.545px; margin-left: 0px; margin-right: 0px; margin-top: 0px; position: absolute; width: 466px;" data-alignment="topCenter" data-portrait="" width="1024" height="1535"><div class="camerarelative" style="width: 466px; height: 460px;"></div></div><div class="cameraSlide cameraSlide_1 cameracurrent" style="display: block; z-index: 999; margin-left: 0px; margin-top: 0px;"><img src="index-Dateien/_MOC4481-001.jpg" class="imgLoaded" style="visibility: visible; height: 460px; margin-left: -111.775px; margin-right: -111.775px; margin-top: 0px; position: absolute; width: 689.551px;" data-alignment="center" data-portrait="" width="1535" height="1024"><div class="camerarelative" style="width: 466px; height: 460px;"></div></div><div class="cameraSlide cameraSlide_2 cameranext" style="display: none; z-index: 1; margin-left: 0px; margin-top: 0px;"><img src="index-Dateien/KFH_2215-002.jpg" class="imgLoaded" style="visibility: visible; height: 460px; margin-left: -112.45px; margin-right: -112.45px; margin-top: 0px; position: absolute; width: 690.9px;" data-alignment="" data-portrait="" width="1535" height="1022"><div class="camerarelative" style="width: 466px; height: 460px;"></div></div><div class="cameraSlide cameraSlide_3 cameranext" style="z-index: 1; display: none;"><div class="camerarelative" style="width: 466px; height: 460px;"></div></div></div></div><div class="camera_overlayer"></div><div class="camera_target_content"><div class="cameraContents"><div class="cameraContent" style="display: none;"><div class="camera_caption fadeFromBottom" style="visibility: hidden; opacity: 1; bottom: 0px;"><div>
 					<div class="camera_caption_title">
@@ -302,17 +299,5 @@ Gesundheit zu stärken.</p>
 				</footer><!-- end footer -->
 			</div>
 		</div>
-		
-	
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.4";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 
 </body></html>
